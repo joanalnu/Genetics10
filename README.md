@@ -11,26 +11,40 @@ rna = biogen.dna2rna(dna)
 Type ```biogen.function()``` to call any function. Remember to provide the appropiate argument inside the brackets. The code snippet in the example above calls the function ```dna2rna()```. It gives the string ```dna``` as input, and the function returns the output called ```rna```.
 
 The available function are the following:
-1. dna2rna(string)
+1. ```dna2rna()```
     Transcribes the provided DNA string into a RNA string by changing the bases (A->U, T-> A, C->G, G->C).
+   Argument: ```string```
+   Output: ```string```
    
-2. rna2amino(string)
+3. ```rna2amino()```
     Transcribes the provided DNA string into an aminoacid string by reading codons (3x bases) and using the catalog.
+   Argument: ```string```
+   Output: ```string```
 
-3. dna2amino(string)
+5. ```dna2amino()```
     Transcribes DNA strings directly to aminoacids strings, it's a merge of the dna2rna and rna2amino methods.
+   Argument: ```string```
+   Output: ```string```
 
-4. compare(string1, string2)
+7. ```compare()```
     Compares the strings (regardless if DNA, RNA, or aminoacids), it always return a boolean and a string. True if both strings are identical, or False and where do the string differ.
+   Argument: ```string1, string2```
+   Output: ```boolean, string```
 
-5. check(string)
+9. ```check()```
     It checks if the provided string is a valid DNA or RNA string. It does not check for aminoacid strings.
+   Argument: ```string```
+   Output: ```string```
 
-6. read_input(string)
+11. ```read_input()```
     Used to open files if a path instead of a DNA string is provided as input.
+    Argument: ```string```
+    Output: ```string```
 
-7. createmutation(string)
+13. ```createmutation()```
     Returns a new string with a mutation (only 1 per run). The mutation can change a base, erase a base or add a new one in any position.
+    Argument: ```string```
+    Output: ```string```
 
 
 ## Tips for coding beginners
@@ -41,17 +55,17 @@ The program is coded in Python (a language). Let's dive into an example of using
 ```python
 my_dna = 'TACACTTGACTTATCATT' # string must be between this ones ''
 ```
-Next we'll translate this DNA string into RNA. Biologically this process is conducted inside the cell's nucleus. To simulate that we will use the ```dna2rna()``` function as shown next:
+Next we'll translate this DNA string into RNA. Biologically this process is conducted inside the cell's nucleus. To simulate that we'll use the ```dna2rna()``` function as shown next:
 ```python
 my_rna = dna2rna(my_dna)
 ```
-Let's divide this line of code into parts. First we declare the new variable ```my_rna```, which is the results of calling the function ```dna2rna()```. Inside the bracket of the function we insert the input that the function needs, in this case the DNA string we created before called ```my_dna```.
+Let's divide this line of code into parts. First we declare the new variable ```my_rna```, which is the result of calling the function ```dna2rna()```. Inside the bracket of the function we insert the input that the function needs, in this case the DNA string we created before called ```my_dna```.
 
 Now that we have the RNA string, let's transcribe it into an aminoacid sequence, which in a cell would configure a protein. To do so we can call the ```rna2amino()``` function as follows:
 ```python
 my_aminoacids = rna2amino(my_rna)
 ```
-Finally, we wwant to see our results. Therefore, we will use a Python method called ```print()``` to show our results:
+Finally, we wwnt to see our results. Therefore, we will use a Python method called ```print()``` to show our results:
 ```python
 print(my_aminoacids)
 ```
