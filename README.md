@@ -8,7 +8,7 @@ First, you must run the first cell to initilize the biogen library. After you ha
 ```python
 rna = biogen.dna2rna(dna)
 ```
-Type ```python biogen.function()``` to call any function. Remember to provide the appropiate argument inside the brackets. The code snippet in the example above calls the function ```python dna2rna()```. It gives the string ```python dna``` as input, and the function returns the output called ```python rna```.
+Type ```biogen.function()``` to call any function. Remember to provide the appropiate argument inside the brackets. The code snippet in the example above calls the function ```dna2rna()```. It gives the string ```dna``` as input, and the function returns the output called ```rna```.
 
 The available function are the following:
 1. dna2rna(string)
@@ -41,17 +41,17 @@ The program is coded in Python (a language). Let's dive into an example of using
 ```python
 my_dna = 'TACACTTGACTTATCATT' # string must be between this ones ''
 ```
-Next we'll translate this DNA string into RNA. Biologically this process is conducted inside the cell's nucleus. To simulate that we will use the ```python dna2rna()``` function as shown next:
+Next we'll translate this DNA string into RNA. Biologically this process is conducted inside the cell's nucleus. To simulate that we will use the ```dna2rna()``` function as shown next:
 ```python
 my_rna = dna2rna(my_dna)
 ```
-Let's divide this line of code into parts. First we declare the new variable ```python my_rna```, which is the results of calling the function ```python dna2rna()```. Inside the bracket of the function we insert the input that the function needs, in this case the DNA string we created before called ```python my_dna```.
+Let's divide this line of code into parts. First we declare the new variable ```my_rna```, which is the results of calling the function ```dna2rna()```. Inside the bracket of the function we insert the input that the function needs, in this case the DNA string we created before called ```my_dna```.
 
-Now that we have the RNA string, let's transcribe it into an aminoacid sequence, which in a cell would configure a protein. To do so we can call the ```python rna2amino()``` function as follows:
+Now that we have the RNA string, let's transcribe it into an aminoacid sequence, which in a cell would configure a protein. To do so we can call the ```rna2amino()``` function as follows:
 ```python
 my_aminoacids = rna2amino(my_rna)
 ```
-Finally, we wwant to see our results. Therefore, we will use a Python method called ```python print()``` to show our results:
+Finally, we wwant to see our results. Therefore, we will use a Python method called ```print()``` to show our results:
 ```python
 print(my_aminoacids)
 ```
