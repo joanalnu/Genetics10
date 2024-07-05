@@ -14,37 +14,37 @@ The available function are the following:
 1. ```dna2rna()```\
     Transcribes the provided DNA string into a RNA string by changing the bases (A->U, T-> A, C->G, G->C).\
    Argument: ```string```\
-   Output: ```string```\
+   Output: ```string```
    
-3. ```rna2amino()```\
+2. ```rna2amino()```\
     Transcribes the provided DNA string into an aminoacid string by reading codons (3x bases) and using the catalog.\
    Argument: ```string```\
-   Output: ```string```\
+   Output: ```string```
 
-5. ```dna2amino()```\
+3. ```dna2amino()```\
     Transcribes DNA strings directly to aminoacids strings, it's a merge of the dna2rna and rna2amino methods.\
    Argument: ```string```\
-   Output: ```string```\
+   Output: ```string```
 
-7. ```compare()```\
+4. ```compare()```\
     Compares the strings (regardless if DNA, RNA, or aminoacids), it always return a boolean and a string. True if both strings are identical, or False and where do the string differ.\
    Argument: ```string1, string2```\
-   Output: ```boolean, string```\
+   Output: ```boolean, string```
 
-9. ```check()```\
+5. ```check()```\
     It checks if the provided string is a valid DNA or RNA string. It does not check for aminoacid strings.\
    Argument: ```string```\
-   Output: ```string```\
+   Output: ```string```
 
-11. ```read_input()```\
+6. ```read_input()```\
     Used to open files if a path instead of a DNA string is provided as input.\
     Argument: ```string```\
-    Output: ```string```\
+    Output: ```string```
 
-13. ```createmutation()```\
+7. ```createmutation()```\
     Returns a new string with a mutation (only 1 per run). The mutation can change a base, erase a base or add a new one in any position.\
     Argument: ```string```\
-    Output: ```string```\
+    Output: ```string```
 
 
 ## Tips for coding beginners
