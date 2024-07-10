@@ -149,3 +149,8 @@ Additionally, the features of the software are aligned with the scholar curricul
 
 ### Contact me!
 If you have further doubts, feel free to contact me at [joanalnu5@gmail.com](mailto:joanalnu5@gmail.com). I'm also open to schedule meetings or calls.
+
+Please note that work is underway to translate this guideline into German, Spanish and Catalan.
+Bitte beachten Sie, dass die Übersetzung dieses Leitfadens ins Deutsche, Spanische und Katalanische in Arbeit ist.
+Tenga en cuenta que se está trabajando en la traducción de esta guía al alemán, español y catalán.
+Tingui en compte que s'està treballant en la traducció d'aquesta guia a l'alemany, el castella i el català.
