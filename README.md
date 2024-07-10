@@ -69,6 +69,30 @@ The available functions are the following:
     Argument: ```string```\
     Output: ```string```
 
+8. ```iterate()```\
+    By  inputting a list of inputs and a list of functions it returns a table with all the results for each functions and input.
+    Argument: ```list, list```
+    Outpu  ```dataframe``` (table)
+   
+10. ```tosingle()```\
+    Transcribes an aminoacid string from three-letter code to single-letter code.\
+    Argument: ```string```\
+    Output: ```string```
+
+11. ```alphafold_predictioN()```\
+   By inputting a UniProt ID, it returns a url to the ```pbd``` file of the predicted protein's structure.\
+   Argument: ```string```\
+   Output: ```dictionary```\
+
+12. ```download_pdb()```\
+   Internal function which enables ```generate_protein``` to work. Basically it retrieves the structure data from the url.
+
+13. ```generate_protein()```\
+    By inputing the resulting dictionary of ``àlphafold_prediction()``` it returns a visualization of the predicted protein's strucutre.\
+    Argument: ```dictionary```\
+    Output: ```None```
+
+
 
 ## Tips for coding beginners
 As stated above, no previous knowledge in coding is required. Therefore, we will explain some basic concepts here.
