@@ -80,7 +80,7 @@ The available functions are the following:
     Output: ```string```
 
 11. ```alphafold_predictioN()```\
-   By inputting a UniProt ID, it returns a url to the ```pbd``` file of the predicted protein's structure.\
+   By inputting a UniProt ID°, it returns a url to the ```pbd``` file of the predicted protein's structure.\
    Argument: ```string```\
    Output: ```dictionary```\
 
@@ -92,7 +92,12 @@ The available functions are the following:
     Argument: ```dictionary```\
     Output: ```None```
 
+°The Alphafold API only admits UniProt IDs as input. You can find the UniProt ID of a protein or gene in the web. We recommend the following databases.
+1. Official UniProt website: [https://www.uniprot.org](https://www.uniprot.org)
+2. For genes: [https://www.ensembl.org/Multi/Tools/Blast](https://www.ensembl.org/Multi/Tools/Blast)
+3. UniProt are available in the alpahfold website itself: [https://alphafold.ebi.ac.uk](https://alphafold.ebi.ac.uk)
 
+ Please, note that a step-for-steo guide on how to access UniProt IDs is comming soon.
 
 ## Tips for coding beginners
 As stated above, no previous knowledge in coding is required. Therefore, we will explain some basic concepts here.
