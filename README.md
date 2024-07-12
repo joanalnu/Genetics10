@@ -111,7 +111,7 @@ Next we'll translate this DNA string into RNA. Biologically this process is cond
 ```python
 my_rna = dna2rna(my_dna)
 ```
-Let's divide this line of code into parts. First we declare the new variable ```my_rna```, which is the result of calling the function ```dna2rna()```. Inside the bracket of the function we insert the input that the function needs, in this case the DNA string we created before called ```my_dna```.
+Let's divide this line of code into parts. First, we declare the new variable ```my_rna```, which is the result of calling the function ```dna2rna()```. Inside the bracket of the function we insert the input (argument), this is the information that the function requires, in this case the DNA string we created before called ```my_dna```.
 
 Now that we have the RNA string, let's transcribe it into an aminoacid sequence, which in a cell would configure a protein. To do so we call the ```rna2amino()``` function as follows:
 ```python
@@ -121,7 +121,7 @@ Finally, we want to see our results. Therefore, we will type our variable to be 
 ```python
 my_aminoacids
 ```
-If you run this code on the Jupyter Notebook, you will obtain the aminoacid sequence for the DNA string you provided. Now that you know about the basics of coding, you can start to play with these and the other functions. If you have further doubts or questions ask your teacher for help.
+If you run this code on the Jupyter Notebook, you will obtain the aminoacid sequence for the DNA string you provided. Now that you know about the basics of coding with ```biogen```, you can start to play with these and the other functions. If you have further doubts or questions ask your teacher for help.
 
 
 ## Info for educators
