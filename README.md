@@ -80,7 +80,7 @@ The available functions are the following:
     Output: ```string```
 
 11. ```alphafold_predictioN()```\
-   By inputting a UniProt ID$^1$, it returns a url to the ```pbd``` file of the predicted protein's structure.\
+   By inputting a UniProt ID $^1$ , it returns a url to the ```pbd``` file of the predicted protein's structure.\
    Argument: ```string```\
    Output: ```dictionary```\
 
