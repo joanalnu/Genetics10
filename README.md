@@ -1,29 +1,29 @@
 # Genetics10
-This is a tool to learn about general genomics using an easy to play with software. It enables students to play with various functions and learn about genomics and biology. There is no previous knowledge needed and its an easy to use interface.
+This is a tool to learn about general genomics using an easy-to-use software. It enables students to play with various functions and learn about genomics and biology. There is no previous knowledge needed and its an easy to use interface.
 
-The code enables students to traslate DNA strings into RNA or into Aminoacids sequences, following the biological procedures. It also has several additional functions such as comparison between strings or generation of mutations. This is a powerful tool for students to play, learn and create their own code.
+The code enables students to traslate DNA strings into RNA or into Aminoacids sequences, following the biological procedures. It also has several additional functions such as comparison between strings or generation of mutations. Further, there's an integration with the AlphaFold API to visualize the predicted structure of proteins. This is a powerful tool for students to play, learn and create their own code.
 
 ## How to use the code
-This is a Jupyter Notebook based software, which makes it easy as it does not require any installations. First go to the [project's GitHub](https://github.com/joanalnu/genetics10) and download the files (you can clone the repository or download a ZIP folder) by clicking the ```code``` button. If you download the ZIP don't forget to decompress it.
+This is a Jupyter Notebook based software, which makes it easy as it does not require any installations. First, go to the [project's GitHub](https://github.com/joanalnu/genetics10) and download the files (you can clone the repository or download a ZIP folder) by clicking the ```code``` button. If you download the ZIP don't forget to decompress it.
 
-![Image of GitHub downlaod button](https://github.com/joanalnu/genetics10/raw/main/pictures/githubbutton.png)
+![Image of GitHub download button](https://github.com/joanalnu/genetics10/raw/main/pictures/githubbutton.png)
 
-Next open Jupyter Lab online (this is a platform from Jupyter that enables you to open Notebooks in your browser) with this link: [https://jupyter.org/try-jupyter/lab/](https://jupyter.org/try-jupyter/lab/). You should open a browser like this:
+Next open Jupyter Lab online (this is a platform from Jupyter that enables you to open Notebooks in your browser) with this link: [https://jupyter.org/try-jupyter/lab/](https://jupyter.org/try-jupyter/lab/). You should open a browser tab like this:
 
 ![Image of Jupyter Lab browser tab](https://github.com/joanalnu/genetics10/raw/main/pictures/jupyterlab.png)
 
-In this tab, go to the left-handed panel, where you can see the files. Click to the upload button and upload the files you want from the ```genetics10``` folder in your device (whereever you have download it).
+In this tab, go to the left-handed panel, where you can see the files. Click to the upload button and upload the files you want from the ```genetics10``` folder in your device (whereever you have download it). The file with the extension ```ipynb``` is the file you will use to run the code. You will need to download one of the copies, choose by your language preferences.
 
 ![Image of files upload](https://github.com/joanalnu/genetics10/raw/main/pictures/filesupload.png)
 
-Note that if you upload the ```README.md``` file you must overwrite jupyterlab's ```readme.md``` file. Once you have uploaded you file you only need to open them (double-click to open file).
+Note that if you also upload the ```README.md``` file you must overwrite jupyterlab's ```readme.md``` file. Once you have uploaded your files you only need to open them (double-click to open file).
 
 ![Image of opened file](https://github.com/joanalnu/genetics10/raw/main/pictures/openedfile.png)
 
 You can now read next section, which explains how to use the ```biogen``` functions.
 
 ## Code's functions and how to use them
-First, you must run the first cell to initilize the ```biogen``` library. You can do that by pressing ```shift+enter``` or pressing the run button in the toolbar. After you have runned that cell you can collapse it by clicking the blue bar to the left. 
+First, you must run the first cell to initilize the ```biogen``` class. You can do that by pressing ```shift+enter``` or pressing the run button in the upper toolbar. After you have runned that cell you can collapse it by clicking the blue bar to the left. 
 
 ![Initializing biogen class](https://github.com/joanalnu/genetics10/raw/main/pictures/initialize_biogen.gif)
 
@@ -80,7 +80,7 @@ The available functions are the following:
     Output: ```string```
 
 11. ```alphafold_predictioN()```\
-   By inputting a UniProt ID°, it returns a url to the ```pbd``` file of the predicted protein's structure.\
+   By inputting a UniProt ID$^1$, it returns a url to the ```pbd``` file of the predicted protein's structure.\
    Argument: ```string```\
    Output: ```dictionary```\
 
@@ -92,7 +92,7 @@ The available functions are the following:
     Argument: ```dictionary```\
     Output: ```None```
 
-°The Alphafold API only admits UniProt IDs as input. You can find the UniProt ID of a protein or gene in the web. We recommend the following databases.
+$^1$ The Alphafold API only admits UniProt IDs as input. You can find the UniProt ID of a protein or gene in the web. We recommend the following databases.
 1. Official UniProt website: [https://www.uniprot.org](https://www.uniprot.org)
 2. For genes: [https://www.ensembl.org/Multi/Tools/Blast](https://www.ensembl.org/Multi/Tools/Blast)
 3. UniProt are available in the alpahfold website itself: [https://alphafold.ebi.ac.uk](https://alphafold.ebi.ac.uk)
