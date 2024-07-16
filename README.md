@@ -145,12 +145,9 @@ This is a useful resource for students to learn both genomics and basic coding. 
 
 Further, the fact that it is web-based and does not need any installation makes it perfect for school managed devices and enables usage regardless of operating system. It also fosters a teamwork and communication skills, as projects can be done in collaboration.
 
-Additionally, the features of the software are aligned with the scholar curriculum and it shows practical applications of classroom content right away. It also promotes critical thinking by allowing students to write their own code to solve problems and engage actively. And prior knowledge of coding is not required at all, as students will use the pre-established functions that enable a wide range of possibilities. Further, student can adapt their code to their problems or write new functions. The code is easily scalable and has endless possiblities!
+Additionally, the features of the software are aligned with the scholar curriculum and it shows practical applications of classroom content right away. It also promotes critical thinking by allowing students to write their own code to solve problems and engage actively. And prior knowledge of coding is not required at all, as students will use the pre-established functions that enable a wide range of possibilities. Further, student can adapt their code to their problems or write new functions. The code is easily scalable and has endless possibilities!
 
 ### Contact me!
 If you have further doubts, feel free to contact me at [joanalnu5@gmail.com](mailto:joanalnu5@gmail.com). I'm also open to schedule meetings or calls.
 
-Please note that work is underway to translate this guideline into German, Spanish and Catalan.
-Bitte beachten Sie, dass die Übersetzung dieses Leitfadens ins Deutsche, Spanische und Katalanische in Arbeit ist.
-Tenga en cuenta que se está trabajando en la traducción de esta guía al alemán, español y catalán.
-Tingui en compte que s'està treballant en la traducció d'aquesta guia a l'alemany, el castella i el català.
+Please note that work is underway for more translations.
