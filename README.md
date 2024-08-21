@@ -1,5 +1,5 @@
 # Genetics10
-This is a tool to learn about general genomics using an easy-to-use software. It enables students to play with various functions and learn about genomics and biology. There is no previous knowledge needed and its an easy to use interface.
+This is a tool to learn about general genomics using an easy-to-use software. It enables students to play with various functions and learn about genomics and biology. There is no previous knowledge needed and its an easy-to-use interface.
 
 The code enables students to traslate DNA strings into RNA or into Aminoacids sequences, following the biological procedures. It also has several additional functions such as comparison between strings or generation of mutations. Further, there's an integration with the AlphaFold API to visualize the predicted structure of proteins. This is a powerful tool for students to play, learn and create their own code.
 
