@@ -1,7 +1,10 @@
 # Genetics10
-This is a tool to learn about general genomics using an easy-to-use software. It enables students to play with various functions and learn about genomics and biology. There is no previous knowledge needed and its an easy-to-use interface.
+<aside>
+💡 Genetics10 is a tool designed to help students learn about general genomics through easy-to-use software. It enables students to explore various functions and gain knowledge about genomics and biology without requiring any prior experience. The interface is user-friendly and accessible to all.
 
-The code enables students to traslate DNA strings into RNA or into Aminoacids sequences, following the biological procedures. It also has several additional functions such as comparison between strings or generation of mutations. Further, there's an integration with the AlphaFold API to visualize the predicted structure of proteins. This is a powerful tool for students to play, learn and create their own code.
+The software allows students to translate DNA sequences into RNA or amino acid sequences, following standard biological processes. It also includes several additional features, such as comparing sequences and generating mutations. Additionally, there is integration with the AlphaFold API, allowing users to visualize predicted protein structures. Genetics10 is a powerful tool for students to experiment with, learn from, and even create their own code.
+
+</aside>
 
 ## How to use the code
 This is a Jupyter Notebook based software, which makes it easy as it does not require any installations. First, go to the [project's GitHub](https://github.com/joanalnu/genetics10) and download the files (you can clone the repository or download a ZIP folder) by clicking the ```code``` button. If you download the ZIP don't forget to decompress it.
