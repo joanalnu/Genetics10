@@ -3,6 +3,7 @@ Genetics10 is a tool designed to help students learn about general genomics thro
 
 The software allows students to translate DNA sequences into RNA or amino acid sequences, following standard biological processes. It also includes several additional features, such as comparing sequences and generating mutations. Additionally, there is integration with the AlphaFold API, allowing users to visualize predicted protein structures. Genetics10 is a powerful tool for students to experiment with, learn from, and even create their own code.
 
+(jump to the info for educators below)
 
 ## How to use the code
 This is a Jupyter Notebook based software, which makes it easy as it does not require any installations. First, go to the [project's GitHub](https://github.com/joanalnu/genetics10) and download the files (you can clone the repository or download a ZIP folder) by clicking the ```code``` button. If you download the ZIP don't forget to decompress it.
@@ -146,7 +147,7 @@ This is a useful resource for students to learn both genomics and basic coding. 
 
 Further, the fact that it is web-based and does not need any installation makes it perfect for school managed devices and enables usage regardless of operating system. It also fosters a teamwork and communication skills, as projects can be done in collaboration.
 
-Additionally, the features of the software are aligned with the scholar curriculum and it shows practical applications of classroom content right away. It also promotes critical thinking by allowing students to write their own code to solve problems and engage actively. And prior knowledge of coding is not required at all, as students will use the pre-established functions that enable a wide range of possibilities. Further, student can adapt their code to their problems or write new functions. The code is easily scalable and has endless possibilities!
+Additionally, the features of the software are aligned with the scholar curriculum and it shows practical applications of classroom content right away. It also promotes critical thinking by allowing students to write their own code to solve problems and engage actively. And prior knowledge of coding is not required at all, as students will use the pre-established functions that enable a wide range of possibilities. Further, students can adapt their code to their problems or write new functions. The code is easily scalable and has endless possibilities!
 
 ### Contact me!
 If you have further doubts, feel free to contact me at [joanalnu5@gmail.com](mailto:joanalnu5@gmail.com). I'm also open to schedule meetings or calls.
