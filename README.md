@@ -32,7 +32,7 @@ I recommend you to read this guide before starting to code. Once you are ready t
 ```python
 rna = biogen.dna2rna(dna)
 ```
-Type ```biogen.function()``` to call any function. Remember to provide the appropiate argument inside the brackets. The code snippet in the example above calls the function ```dna2rna()```. It gives the string ```dna``` as input, and the function returns the output called ```rna```.
+Type ```biogen.function()``` to call any function. Remember to provide the appropiate argument inside the bracketss. The code snippet in the example above calls the function ```dna2rna()```. It gives the string ```dna``` as input, and the function returns the output called ```rna```.
 
 The available functions are the following:
 1. ```dna2rna()```\
@@ -112,7 +112,7 @@ Next we'll translate this DNA string into RNA. Biologically this process is cond
 ```python
 my_rna = dna2rna(my_dna)
 ```
-Let's divide this line of code into parts. First, we declare the new variable ```my_rna```, which is the result of calling the function ```dna2rna()```. Inside the bracket of the function we insert the input (argument), this is the information that the function requires, in this case the DNA string we created before called ```my_dna```.
+Let's divide this line of code into parts. First, we declare the new variable ```my_rna```, which is the result of calling the function ```dna2rna()```. Inside the brackets of the function we insert the input (argument), this is the information that the function requires, in this case the DNA string we created before called ```my_dna```.
 
 Now that we have the RNA string, let's transcribe it into an aminoacid sequence, which in a cell would configure a protein. To do so we call the ```rna2amino()``` function as follows:
 ```python
