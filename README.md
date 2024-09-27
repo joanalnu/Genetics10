@@ -1,5 +1,5 @@
 # Genetics10
-Genetics10 is a tool designed to help students learn about general genomics through easy-to-use software. It enables students to explore various functions and gain knowledge about genomics and biology without requiring any prior experience. The interface is user-friendly and accessible to all.
+[Genetics10](https://joanalnu.github.io/genetisc10) is a tool designed to help students learn about general genomics through easy-to-use software. It enables students to explore various functions and gain knowledge about genomics and biology without requiring any prior experience. The interface is user-friendly and accessible to all.
 
 The software allows students to translate DNA sequences into RNA or amino acid sequences, following standard biological processes. It also includes several additional features, such as comparing sequences and generating mutations. Additionally, there is integration with the AlphaFold API, allowing users to visualize predicted protein structures. Genetics10 is a powerful tool for students to experiment with, learn from, and even create their own code.
 
