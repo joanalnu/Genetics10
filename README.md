@@ -86,8 +86,10 @@ The available functions are the following:
    Argument: ```string```\
    Output: ```dictionary```\
 
-11. ```download_pdb()```\
-   Internal function which enables ```generate_protein``` to work. Basically it retrieves the structure data from the url.
+11. ```generate_protein()``` Additional function\
+     By inputing the resulting dictionary of ```alphafold_prediction()``` it returns a visualization of the predicted protein's strucutre.\
+    Argument: ```dictionary```\
+    Output: ```None```
 
 12. ```cut_dna(string, integer)```\
     Cuts the DNA string into two parts at the specified position.\
@@ -102,10 +104,8 @@ The available functions are the following:
             ```string``` Optional: string to insert by HDR repair\
     Output: ```string``` Repaired DNA
 
-**X.** ```generate_protein()``` Additional function\
-     By inputing the resulting dictionary of ```alphafold_prediction()``` it returns a visualization of the predicted protein's strucutre.\
-    Argument: ```dictionary```\
-    Output: ```None```
+**X.** ```download_pdb()```\
+   Internal function which enables ```generate_protein``` to work. Basically it retrieves the structure data from the url.
 
 $^1$ The Alphafold API only admits UniProt IDs as input. You can find the UniProt ID of a protein or gene in the web. We recommend the following databases.
 1. Official UniProt website: [https://www.uniprot.org](https://www.uniprot.org)
