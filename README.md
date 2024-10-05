@@ -76,21 +76,34 @@ The available functions are the following:
     Argument: ```list, list```
     Outpu  ```dataframe``` (table)
    
-10. ```tosingle()```\
+9. ```tosingle()```\
     Transcribes an aminoacid string from three-letter code to single-letter code.\
     Argument: ```string```\
     Output: ```string```
 
-11. ```alphafold_predictioN()```\
+10. ```alphafold_prediction()```\
    By inputting a UniProt ID $^1$ , it returns a url to the ```pbd``` file of the predicted protein's structure.\
    Argument: ```string```\
    Output: ```dictionary```\
 
-12. ```download_pdb()```\
+11. ```download_pdb()```\
    Internal function which enables ```generate_protein``` to work. Basically it retrieves the structure data from the url.
 
-13. ```generate_protein()```\
-    By inputing the resulting dictionary of ``àlphafold_prediction()``` it returns a visualization of the predicted protein's strucutre.\
+12. ```cut_dna(string, integer)```\
+    Cuts the DNA string into two parts at the specified position.\
+    Argument: ```string and integer```\
+    Output: ```string``` Original DNA with a marked cut
+
+13. ```repair_dna(string, integer, string, string)```
+    Repairs a cut DNA string by either deleting a base (NHEJ) or adding specific bases at the specified location (HDR).\
+    Argument: ```string``` DNA string\
+            ```integer``` cut position\
+            ```string``` type of repair (NHEJ or HDR)\
+            ```string``` Optional: string to insert by HDR repair\
+    Output: ```string``` Repaired DNA
+
+**X.** ```generate_protein()``` Additional function\
+     By inputing the resulting dictionary of ```alphafold_prediction()``` it returns a visualization of the predicted protein's strucutre.\
     Argument: ```dictionary```\
     Output: ```None```
 
