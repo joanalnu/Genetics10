@@ -22,18 +22,18 @@ Note that if you also upload the ```README.md``` file you must overwrite jupyter
 
 ![Image of opened file](https://github.com/joanalnu/genetics10/raw/main/pictures/openedfile.png)
 
-You can now read next section, which explains how to use the ```biogen``` functions.
+You can now read next section, which explains how to use the ```gen10``` functions.
 
 ## Code's functions and how to use them
-First, you must run the first cell to initilize the ```biogen``` class. You can do that by pressing ```shift+enter``` or pressing the run button in the upper toolbar. After you have runned that cell you can collapse it by clicking the blue bar to the left. 
+First, you must run the first cell to initilize the ```gen10``` class. You can do that by pressing ```shift+enter``` or pressing the run button in the upper toolbar. After you have runned that cell you can collapse it by clicking the blue bar to the left. 
 
-![Initializing biogen class](https://github.com/joanalnu/genetics10/raw/main/pictures/initialize_biogen.gif)
+![Initializing gen10 class](https://github.com/joanalnu/genetics10/raw/main/pictures/initialize_gen10.gif)
 
 I recommend you to read this guide before starting to code. Once you are ready to go, you can code in the cells below the example. To use any of the available functions you can call them this way:
 ```python
-rna = biogen.dna2rna(dna)
+rna = gen10.dna2rna(dna)
 ```
-Type ```biogen.function()``` to call any function. Remember to provide the appropiate argument inside the bracketss. The code snippet in the example above calls the function ```dna2rna()```. It gives the string ```dna``` as input, and the function returns the output called ```rna```.
+Type ```gen10.function()``` to call any function. Remember to provide the appropiate argument inside the bracketss. The code snippet in the example above calls the function ```dna2rna()```. It gives the string ```dna``` as input, and the function returns the output called ```rna```.
 
 The available functions are the following:
 1. ```dna2rna()```\
@@ -123,7 +123,7 @@ Finally, we want to see our results. Therefore, we will type our variable to be 
 ```python
 my_aminoacids
 ```
-If you run this code on the Jupyter Notebook, you will obtain the aminoacid sequence for the DNA string you provided. Now that you know about the basics of coding with ```biogen```, you can start to play with these and the other functions. If you have further doubts or questions ask your teacher for help.
+If you run this code on the Jupyter Notebook, you will obtain the aminoacid sequence for the DNA string you provided. Now that you know about the basics of coding with ```gen10```, you can start to play with these and the other functions. If you have further doubts or questions ask your teacher for help.
 
 
 ## Info for educators
