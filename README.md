@@ -1,7 +1,7 @@
 # Genetics10
 [Genetics10](https://joanalnu.github.io/genetisc10) is a tool designed to help students learn about general genomics through easy-to-use software. It enables students to explore various functions and gain knowledge about genomics and biology without requiring any prior experience. The interface is user-friendly and accessible to all.
 
-The software allows students to translate DNA sequences into RNA or amino acid sequences, following standard biological processes. It also includes several additional features, such as comparing sequences and generating mutations. Additionally, there is integration with the AlphaFold API, allowing users to visualize predicted protein structures. Genetics10 is a powerful tool for students to experiment with, learn from, and even create their own code.
+The software allows students to translate DNA sequences into RNA or amino acid sequences, following the standard biological processes. It also includes several additional features, such as comparing sequences, generating mutation, or iterating. Furthermore, there is an integration with the AlphaFold API, allowing users to visualize predicted protein structures, as well as as functions to simulate the action of CRISPR-Cas9 gene editing. Genetics10 is a powerful tool for students to experiment with, learn from, and even create their own code.
 
 (jump to the info for educators below)
 
@@ -143,7 +143,7 @@ If you run this code on the Jupyter Notebook, you will obtain the aminoacid sequ
 ### How can I use this in my class?
 First, identify in your curriculum where you can integrate the software, which is already built aligned with the general education guidelines. Then you should start by explaining the fundamental concepts of genomics in your biology or science class, as you would do normally. Then you can introduce this tool to students and explain how to use it.
 
-You can use the software to design problem solving challenges that require students to use critical thinking and coding skills. For example, a scenario where a gene mutation causes a disease, and ask students to write code that identifies and corrects the mutation. This type of activities foster creativity and problem-solving skill and led further to more science like CRIPSR Cas-9.
+You can use the software to design problem solving challenges that require students to use critical thinking and coding skills. For example, a scenario where a gene mutation causes a disease, and ask students to write code that identifies and corrects the mutation. This type of activities foster creativity and problem-solving skill and led further to more science like CRIPSR-Cas9.
 
 Also, perform planned activities where students apply what they've learned in real life. Create assignments where students write simple code using the pre-established functions to emulate genetic processes such as transcription and translation.
 
@@ -160,4 +160,9 @@ This is a useful resource for students to learn both genomics and basic coding. 
 
 Further, the fact that it is web-based and does not need any installation makes it perfect for school managed devices and enables usage regardless of operating system. It also fosters a teamwork and communication skills, as projects can be done in collaboration.
 
-Additionally, the features of the software are aligned with the scholar curriculum and it shows practical applications of classroom content right away. It also promotes criti
+Additionally, the features of the software are aligned with the scholar curriculum and it shows practical applications of classroom content right away. It also promotes critical thinking by allowing students to write their own code to solve problems and engage actively. And prior knowledge of coding is not required at all, as students will use the pre-established functions that enable a wide range of possibilities. Further, students can adapt their code to their problems or write new functions. The code is easily scalable and has endless possibilities!
+
+### Contact me!
+If you have further doubts, feel free to contact me at [joanalnu5@gmail.com](mailto:joanalnu5@gmail.com). I'm also open to schedule meetings or calls.
+
+Please note that work is underway for more translations.
