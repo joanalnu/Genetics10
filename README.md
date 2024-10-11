@@ -32,11 +32,11 @@ This section shows how to open the Genetics10 documents in the Google Colab envi
 
 Google Colab is a  free platform that allows you to run Jupyter Notebooks in the cloud. First, open a new colab notebook in [colab.research.google.com](https://colab.research.google.com) as in the next video.
 
-![Video of Opening a New Colab Notebook](https://github.com/joanalnu/raw/pictures/openingColab.gif)
+![Video of Opening a New Colab Notebook](https://github.com/joanalnu/raw/main/pictures/openingColab.gif)
 
 Next, you need to clone the Genetics10 GitHub Repository into this space. Do so by running the following code line in a cell: ```!git clone https://github.com/joanalnu/genetics10.git```.
 
-![Cloning GitHub Repository](https://github.com/joanalnu/genetics10/raw/picture/cloningGitHub.gif)
+![Cloning GitHub Repository](https://github.com/joanalnu/genetics10/raw/main/picture/cloningGitHub.gif)
 
 Finally, you can go to the folder icon in the menu-bar on the left and open the document (```ipynb``` documents are the code in different languages) on your preferred language.
 
