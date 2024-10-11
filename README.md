@@ -6,7 +6,10 @@ The software allows students to translate DNA sequences into RNA or amino acid s
 (jump to the info for educators below)
 
 ## How to use the code
-This is a Jupyter Notebook based software, which makes it easy as it does not require any installations. First, go to the [project's GitHub](https://github.com/joanalnu/genetics10) and download the files (you can clone the repository or download a ZIP folder) by clicking the ```code``` button. If you download the ZIP don't forget to decompress it.
+This is a Jupyter Notebook based software, which makes it easy to yse as it does not require any installations. You can simply open the notebook on the browser and start coding right-away. Before starting you can decide which tool to use: Jupyter Lab online or Google Colab. both are free browser-based tools that enable you to open, edit, and run Jupyter Notebooks. See the next section for [Jupyter  Lab online](#how-to-use-jupyter-lab-online) and [Google Colab](#how-to-use-google-colab) tutorials.
+
+### How to use Jupyter Lab online
+First, go to the [project's GitHub](https://github.com/joanalnu/genetics10) and download the files by clicking the ```code```button (you can also clone the repository). If you download the ZIP don't forget to decompress it.
 
 ![Image of GitHub download button](https://github.com/joanalnu/genetics10/raw/main/pictures/githubbutton.png)
 
@@ -22,7 +25,22 @@ Note that if you also upload the ```README.md``` file you must overwrite jupyter
 
 ![Image of opened file](https://github.com/joanalnu/genetics10/raw/main/pictures/openedfile.png)
 
-You can now read next section, which explains how to use the ```gen10``` functions.
+You can now read [next section](#codes-functions-and-how-to-use-them), which explains how to use the ```gen10``` functions.
+
+### How to use Google Colab
+This section shows how to open the Genetics10 documents in the Google Colab environment. If you had already opened Genetics10 in Jupyter Lab, you can skip this section and jump to [the next section](#codes-functions-and-how-to-use-them).
+
+Google Colab is a  free platform that allows you to run Jupyter Notebooks in the cloud. First, open a new colab notebook in [colab.research.google.com](https://colab.research.google.com) as in the next video.
+
+![Video of Opening a New Colab Notebook](https://github.com/joanalnu/raw/pictures/openingColab.gif)
+
+Next, you need to clone the Genetics10 GitHub Repository into this space. Do so by running the following code line in a cell: ```!git clone https://github.com/joanalnu/genetics10.git```.
+
+![Cloning GitHub Repository](https://github.com/joanalnu/genetics10/raw/picture/cloningGitHub.gif)
+
+Finally, you can go to the folder icon in the menu-bar on the left and open the document (```ipynb``` documents are the code in different languages) on your preferred language.
+
+Great! Now you can continue to the [next section](#codes-functions-and-how-to-use-them), which explain how to use the ```gen10``` functions.
 
 ## Code's functions and how to use them
 First, you must run the first cell to initilize the ```gen10``` class. You can do that by pressing ```shift+enter``` or pressing the run button in the upper toolbar. After you have runned that cell you can collapse it by clicking the blue bar to the left. 
